@@ -4,8 +4,8 @@ export default function aboutus({ route, navigation }) {
   return (
     <>
       <View>
-        <Text>Heelo I am about us page</Text>
-        <Text>data recived : {route.params.title}</Text>
+        <Text>Hello I am about us page</Text>
+        <Text>data received : {route.params.title}</Text>
       </View>
     </>
   );
