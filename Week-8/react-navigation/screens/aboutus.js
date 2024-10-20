@@ -5,7 +5,7 @@ export default function aboutus({ route, navigation }) {
     <>
       <View>
         <Text>Hello I am about us page</Text>
-        <Text>data received : {route.params.title}</Text>
+        <Text>data recived : {route.params.title}</Text>
       </View>
     </>
   );
