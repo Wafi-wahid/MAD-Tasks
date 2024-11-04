@@ -6,6 +6,10 @@ export default function DetailsScreen() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Details Screen</Text>
+      <Button
+        title="Back to Home!"
+        onPress={() => navigation.navigate("HomeScreen")}
+      />
     </View>
   );
 }

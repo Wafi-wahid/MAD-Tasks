@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     padding: 20,
     backgroundColor: "#000",
-    marginTop: 150,
+    marginTop: 100,
   },
   displayText: {
     fontSize: 60,
